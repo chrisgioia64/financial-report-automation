@@ -1,6 +1,5 @@
 import os
 import sys
-import glob
 import urllib.request
 import gdown
 import requests

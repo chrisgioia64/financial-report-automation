@@ -4,6 +4,10 @@ This project scrapes and downloads financial reports from the website https://ww
 
 ## How to Run
 
+First, install all dependencies by running the following:
+
+    pip install -r requirements.txt
+
 Run the python script `scraper.py` to download a large chunk of the financial reports. All files will be downloaded into a folder called `reports` in your local directory.
 
 A log file will be generated for every script run. The log will list which files were successfully added (`ADDED`), could not be downloaded by the script (`MISSING`), and those which already existed in the `reports` folder from a prior script run (`ALREADY EXISTS`)
